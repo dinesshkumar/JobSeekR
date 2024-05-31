@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>Update Account</h2>
+<form action="/Account/NewAccountRequest">
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="FirstName" name="firstName" placeholder="" value="" required="">
+        </div>
+
+        <div class="col-sm-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="LastName" name="lastName" placeholder="" value="" required="">
+
+        </div>
+
+        <div class="col-12">
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text"></span>
+                <input type="text" class="form-control" id="UserName" name="userName" placeholder="Username" required="">
+
+            </div>
+        </div>
+
+        <div class="col-12">
+            <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
+            <input type="email" class="form-control" id="Email" name="email" placeholder="you@example.com" required="">
+
+        </div>
+        <div class="col-12">
+            <label for="contactnumber" class="form-label">Contact Number <span class="text-body-secondary"></span></label>
+            <input type="text" class="form-control" id="ContactNumber" name="contactNumber" placeholder="+44 1234567890" required="">
+
+        </div>
+        <div class="col-12">
+            <label for="password" class="form-label">Password <span class="text-body-secondary"></span></label>
+            <input type="password" class="form-control" name="password" id="Password" required="">
+        </div>
+        <div class="col-12">
+            <label for="confirmpassword" class="form-label">Confirm Password <span class="text-body-secondary"></span></label>
+            <input type="password" class="form-control" name="confirmPassword" id="confirm_password" required="">
+        </div>
+    </div>
+
+
+    <p></p>
+    <button type="submit" class="btn btn-primary">Update Account</button>
+</form>

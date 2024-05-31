@@ -1,0 +1,58 @@
+﻿
+/* Split the screen in half */
+.split {
+    height: 90%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 10;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+
+.job_font {
+    font-size: 7vw;
+    color: white;
+    background-color: Tomato;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.rec_font {
+    font-size: 7vw;
+    color: white;
+    background-color: DodgerBlue;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.register {
+    border-radius: 5px;
+    background-color:orange;
+}
+
+
+.page {
+    background-color: lightgoldenrodyellow;
+    margin: 0px;
+    padding: 1px;
+    border: 0px;
+    width:100%;
+}

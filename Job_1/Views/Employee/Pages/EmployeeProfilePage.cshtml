@@ -1,0 +1,216 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Employee Profile Page";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #f4f4f4;
+        }
+
+        .search-bar {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .cta-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            .cta-button:hover {
+                background-color: #555;
+            }
+
+        .benefits {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+            .benefits ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .benefits li {
+                display: inline-block;
+                margin: 0 20px;
+            }
+
+        .featured-jobs {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .job-listing {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-family: "Audiowide", sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JobSeekR</h1>
+        <nav>
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeHomePage">Home</a> |
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeJobSearchPage">Job Search</a> |
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeManageJobsPage">Manage Jobs</a> |
+            <a class="btn btn-primary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeProfilePage">Profile</a> |
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeAccountPage">Account</a> |
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeNotificationsPage">Notifications</a> |
+            <a class="btn btn-secondary rounded-pill px-3" asp-area="" asp-controller="Home" asp-action="EmployeeLogout">Log Out</a>
+
+
+        </nav>
+    </header>
+
+    <div class="container">
+        
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Active Profile</label>
+            </div>
+            <div class="row g-3">
+            <form action="/Home/EmployeeProfileSave" method="post">
+
+                <div class="col-sm-6">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="FirstName" name="fullName" placeholder="" value="@ViewBag.jobSeekerProfile.job_seeker_name" required="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Profile Summary</label>
+                    <textarea class="form-control" id="profileSummary" name="profileSummary" value="@ViewBag.jobSeekerProfile.job_seeker_profile_summary" rows=" 3"></textarea>
+                </div>
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Skills <span class="text-body-secondary"></span></label>
+                    <input type="text" class="form-control" id="skills" name="skills" value="@ViewBag.jobSeekerProfile.job_seeker_skills" required="">
+
+                </div>
+                <div class="col-12">
+                    <label for="education" class="form-label">Education <span class="text-body-secondary"></span></label>
+                    <input type="text" class="form-control" id="education" name="education" value="@ViewBag.jobSeekerProfile.job_seeker_education" required="">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Experience</label>
+                    <textarea class="form-control" id="experience" value="@ViewBag.jobSeekerProfile.job_seeker_experience" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <label for="achievement" class="form-label">Achievement <span class="text-body-secondary"></span></label>
+                    <input type="text" class="form-control" id="achievement" name="achievement" value="@ViewBag.jobSeekerProfile.job_seeker_achievement">
+
+                </div>
+                <div class="col-12">
+                    <label for="location" class="form-label">Location <span class="text-body-secondary"></span></label>
+                    <input type="text" class="form-control" id="location" name="location" value="@ViewBag.jobSeekerProfile.job_seeker_location">
+
+                </div>
+                <div class="col-12">
+                    <label class="form-label" for="uploadResume">Upload Resume</label>
+                    <input type="file" class="form-control" id="uploadResume" name="uploadResume" required="false" />
+                    <a href="">Download Existing Resume</a>
+                </div>
+                <div class="col-12">
+                    <label class="form-label" for="uploadCoverLetter">Upload Cover Letter (Optional)</label>
+                    <input type="file" class="form-control" id="uploadCoverLetter" name="uploadCoverLetter" required="false" />
+                </div>
+                <a href="">Download Existing Cover Letter</a>
+
+
+                <div class="col-sm-6">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </div>
+                <hr class="my-4">
+
+                <div class="col-12">
+                    <label for="downloadoptions" class="form-label">Download Options</label>
+                    <select class="col-sm-6" id="downloadOptions" name="downloadOptions" >
+
+                        <option value="">Choose...</option>
+                        <option value="docx">Docx</option>
+                        <option value="pdf">PDF</option>
+                    </select>
+
+                </div>
+            </form>
+        </div>
+                <hr class="my-4">
+                <div class="row g-3">
+            
+            <form action="/Home/EmployeeProfileDownload" method="post">
+
+                <div class="col-sm-6">
+                    <button class="btn btn-primary" type="submit">Download</button>
+                </div>
+            
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>K2343849</p>
+        <p>K2304381</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="preloing.css">
+
+<div class="text-center page">
+    <h1 class="display-4" style="font-size: 4vw;"><b>Welcome to JobSeekR</b></h1>
+    <form action="/Home/Register" method="post">
+        <button type="submit" class=" register centered btn" style=" font-size: 2vw; color:white;"><b>REGISTER</b></button>
+    </form>
+
+    <p style="font-size: 2vw;"> Please Register if you don't have an account.</p>
+
+    <form action="/Home/EmployeePreLogin" method="post">
+    <button type="submit" class="split left centered btn float-left job_font">JOB SEEKER</button>
+    </form>
+    <form action="/Home/EmployerPreLogin" method="post">
+    <button type="submit" class="split right centered btn float-right rec_font">RECRUITER</button>
+    </form>
+</div>

@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Job_1
+build_property.RootNamespace = Job_1
+build_property.ProjectDir = C:\Users\dines\source\repos\Job_1\Job_1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dines\source\repos\Job_1\Job_1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/EmployeeLoginFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVMb2dpbkZhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/EmployeeLoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeAccountPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVBY2NvdW50UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeJobPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVKb2JQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeJobSearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVKb2JTZWFyY2hQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeJobSearchResultsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVKb2JTZWFyY2hSZXN1bHRzUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeManageJobsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVNYW5hZ2VKb2JzUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeNotificationsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVOb3RpZmljYXRpb25zUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employee/Pages/EmployeeProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFnZXNcRW1wbG95ZWVQcm9maWxlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/EmployerLoginFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcRW1wbG95ZXJMb2dpbkZhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/EmployerLoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcRW1wbG95ZXJMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerAccountPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJBY2NvdW50UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerCandidateSearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJDYW5kaWRhdGVTZWFyY2hQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerCandidateSearchResultsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJDYW5kaWRhdGVTZWFyY2hSZXN1bHRzUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerManageApplications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJNYW5hZ2VBcHBsaWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerManageJobsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJNYW5hZ2VKb2JzUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerNotificationsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJOb3RpZmljYXRpb25zUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerPostJobsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJQb3N0Sm9ic1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Employer/Pages/EmployerProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcUGFnZXNcRW1wbG95ZXJQcm9maWxlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Register_Fails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJfRmFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Register_Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJfU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/UpdateAccountPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlQWNjb3VudFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-o1rsoakqdn
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t681yrmf0u
+
+[C:/Users/dines/source/repos/Job_1/Job_1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mjogyol86a

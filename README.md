@@ -17,11 +17,14 @@ A simple job portal application designed to provide a comprehensive and secure s
 5.	Run the Project
 
 ## Screenshots
-Landing Page
-![image](https://github.com/user-attachments/assets/3e3b106c-b914-4025-a4b1-65580dd1e06e)
+Landing Page:
+![image](https://github.com/user-attachments/assets/8fe71f40-cda2-4ceb-9a0a-2e8af8ccb1c1)
+
 
 Job Seeker Login Page:
-![image](https://github.com/user-attachments/assets/626a5e4a-f8d8-412c-8e1d-43817664baf8)
+![image](https://github.com/user-attachments/assets/3e3b106c-b914-4025-a4b1-65580dd1e06e)
+
+
 
 Job Seeker Login Fail Page:
 ![image](https://github.com/user-attachments/assets/1e504023-66f6-401c-9226-3f7c5ba1e70d)
